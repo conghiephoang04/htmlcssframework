@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+</head>
+<body>
+    <header>
+        <img src="../img/logo.avif" alt="">
+        <p>Hotline: 0379457026</p>
+       
+    </header>
+
+    <div id="menu">
+        <i class="bi bi-list"></i>
+    </div>
+    <nav>
+        <a href="">Trang chủ</a>
+        <a href="log.html">Giới thiệu</a>
+        <a href="log.html">Tin tức</a>
+        <a href="card.html">Tour trong nước</a>
+        <a href="card.html">Tour quốc tế</a>
+        <a href="log.html">Tài khoản</a>
+    </nav>
+   <div class="slide">
+        <img id="banner" src="../img/bannẻ.jpg" width="100%" alt="">
+        <i class="bi bi-caret-left" onclick="prev()"></i>
+        <i class="bi bi-caret-right" onclick="next()"></i>
+        <div class="list">
+            <span id="0">.</span>
+            <span id="1">.</span>
+            <span id="2">.</span>
+        </div>
+   </div>
+    <main>
+        <section  class="sao">
+            <article>
+                <br><br><br><br>
+                <h1>HÃY CHỌN TRAVEL GO</h1>
+                <P>1001 lý do tại sao bạn nên chọn chúng tôi TRAVEL GO, có một thế giới <br> tuyệt đẹp quanh ta hãy đến với chúng tôi <br>
+                 Với hơn 16 năm kinh nghiệm tổ chức và triển khai các tour du lịch trong và ngoài nước, chúng tôi cam kết đem lại cho khách hàng những hành trình tuyệt vời và ấn tượng nhất thông qua những dịch vụ chuyên nghiệp mà chúng tôi thực hiện như:   
+                </P>
+                <div class="saocon">
+                    <img src="../img/anh.jpg" width="100%" alt="">
+                </div>
+
+            </article>
+            <article>
+                <img src="../img/dic.jpg" width="100%" height="400px" alt="">
+            </article>
+        </section>
+        <H3> DANH SÁCH HOT DEAL</H3>
+        <section class="list-tour" >
+            <article>
+                <img  src="../img/du-lịch-Đắk-Lắk-1.jpg" alt="">
+                <p><b> Tour Đắk Lăk</b></p>
+                <p> Giá 8.000.000 VNĐ</p>
+                <div id="button" >
+                    <div class="nut">
+                        <button style="height: 40px; width: 100px;"> Đặt tour</button>
+                    </div>
+                    
+                   </div>
+            </article>
+            <article>
+                <img src="../img/danang.webp" alt="">
+                <p><b> Tour Đà Nẵng</b></p>
+                <p> Giá 12.000.000 VNĐ</p>
+                <div id="button" >
+                    <div class="nut">
+                        <button style="height: 40px; width: 100px;"> Đặt tour</button>
+                    </div>
+                   
+                   </div>
+            </article>
+            <article>
+                <img src="../img/dalat.png" alt="">
+                <p><b> Tour Đà Lạt  </b></p>
+                <p> Giá 10.000.000 VNĐ</p>
+                <div id="button" >
+                    <div class="nut">
+                        <button style="height: 40px; width: 100px;"> Đặt tour</button>
+                    </div>
+                    
+                   </div>
+            </article>
+            <article>
+                <img src="../img/halong1.jpg"  alt="">
+                <p><b> Tour Hạ Long </b></p>
+                <p> Giá 9.000.000 VNĐ</p>
+               <div id="button" >
+                <div class="nut">
+                    <button style="height: 40px; width: 100px;"> Đặt tour</button>
+                </div>
+                
+               </div>
+            </article> 
+            
+       
+        
+    </main>
+    <div class="container-fuild">
+        <header>
+           <h1>DU LỊCH QUỐC TẾ</h1>
+        </header>
+        <section class="grid-container">
+            <div class="item1">
+                <img src="../img/1.1.jpg"  class="image">
+                <p class="content">Du lịch Nhật Bản<br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam laudantium deserunt quam excepturi, eligendi deleniti possimus animi facilis unde iusto molestias eveniet vel sapiente ipsam rem aliquid, nesciunt debitis.
+                </p>
+            </div>
+            <div class="item2">
+                <img src="../img/4.jpg" class="image" alt="">
+                <p class="content">Du lịch Singapore</p>
+            </div>
+            <div class="item3">
+                <img src="../img/5.jpg" class="image" alt="">
+                <p class="content">Du lịch Mỹ</p>
+            </div>
+            <div class="item4">
+                <img src="../img/8.jpg" class="image" alt="">
+                <p class="content">Du lịch Anh</p>
+            </div>
+            <div class="item5">
+                <img src="../img/11.jpg" class="image" alt="">
+                <p class="content">Du lịch Ai Cập</p>
+            </div>
+        </section>
+       <!--  <div class="container">
+                <div class="item">
+                    <img src="../img/1.1.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/2.2.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/3.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/4.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/5.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/6.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/7.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/8.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/9.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/10.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../img/11.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h2>du lịch</h2>
+                            <div class="des">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa nisi saepe, nobis magni dolorem incidunt maiores ea tempore ad at omnis qui quibusdam a. Laudantium similique porro alias at?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div> -->
+    
+    
+    <h3>THƯ VIỆN ẢNH CỦA KHÁCH </h3>
+    <section class="gallery">
+        <div class="column-3">
+            <img src="../img/gally1.jpg" alt="">
+            <img src="../img/gally2.jpg" alt="">
+            <img src="../img/gally3.jpg" alt="">
+        </div>
+        <div class="column-4">
+            <img src="../img/gally4.jpg" alt="">
+            <img src="../img/gally5.jpg" alt="">
+            <img src="../img/galll6.jpg" alt="">
+            <img src="../img/gally12.jpg" alt="">
+
+        </div>
+        <div class="column-3">
+            <img src="../img/gally7.jpg" alt="">
+            <img src="../img/gally8.jpg" alt="">
+            <img src="../img/gally9.jpg" alt="">
+        </div>
+        <div class="column-4">
+            <img src="../img/gally10.jpg" alt="">
+            <img src="../img/gally11.jpg" alt="">
+            <img src="../img/gally12.jpg" alt="">
+            <img src="../img/gally4.jpg" alt="">
+
+        </div>
+
+    </section>
+
+   <br><br><br>
+   <h2 style="text-align: center;">KHÁCH HÀNG NGHĨ GÌ VỀ CHÚNG TÔI</h2> <br>
+    </section>
+    <section class="khach">
+        <article>
+            <img src="../img/ngoc-trinh1.jpg" alt="">
+            <p><b>Ngọc Trinh</b></p>
+            <p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </p>
+            <span>
+                Dịch vụ rất tốt tôi rất hài lòng
+            </span>
+
+        </article>
+        <article>
+            <img src="../img/bill.jpg" alt="">
+            <p><b>Bill Gate</b></p>
+            <p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </p>
+            <span>
+                Dịch vụ rất tốt tôi rất hài lòng
+            </span>
+        </article>
+
+        <article>
+            <img src="../img/de.jpg" alt="">
+            <p><b>Dế Choắt</b></p>
+            <p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </p>
+            <span>
+                Dịch vụ rất tốt tôi rất hài lòng
+            </span>
+        </article>
+        <article>
+            <img src="../img/bin.jpg" alt="">
+            <p><b>Binz</b></p>
+            <p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </p>
+            <span>
+                Dịch vụ rất tốt tôi rất hài lòng
+            </span>
+
+        </article>
+        <article>
+            <img src="../img/jack.jpg" alt="">
+            <p><b>Jack</b></p>
+            <p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </p>
+            <span>
+                Dịch vụ rất tốt tôi rất hài lòng
+            </span>
+
+        </article>
+    </section>
+    
+    <footer>
+        <section>
+            <div>
+                <h2>LIÊN HỆ</h2>
+                <hr>
+                <p>Phường Trung Mỹ Tây, Q12, Tp.Hồ Chí Minh</p>
+                <p>Email: imbeo2004@gmail.com</p>
+                <p>Điện thoại: 0379457026 - 0966124415</p>
+                <p>Mã số thuế : 066204003643</p>
+                <p>GPKD lữ hành quốc tế số 79-400/2015/TCDL</p>
+            </div>
+            <div>
+                <h2>BẢN ĐỒ</h2>
+                <hr>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.443859490546!2d106.62235907367143!3d10.853805989299724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a21370e1f63%3A0x617ec339816b37c1!2zNDIzIEjDoCBUaOG7iyBLaGnDqm0sIEtQMiwgUXXhuq1uIDEyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggNzAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1686328562595!5m2!1svi!2s" 
+                width="350" 
+                height="170" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <h2>KẾT NỐI</h2>
+                <hr>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+                <p>Đăng ký nhận tin khuyến mãi</p>
+                <input type="text" placeholder="Nhập email nhận khuyến mãi" width="90%">
+                <button class="btn">ĐĂNG KÝ</button>
+            </div>
+        </section>
+     </footer>
+    <script src="../js.js"></script>
+</body>
+</html>
